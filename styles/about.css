@@ -1,0 +1,44 @@
+#about{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #FFF8F3;
+  text-align: center;
+  margin-top: 124px;
+  border-radius: 10px;
+  margin-bottom: 130px;
+}
+
+#about .about-container {
+  padding: 137px 148px;
+}
+
+#about .about-content h3{
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #181818;
+}
+
+#about .about-content p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+#about .about-info{
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .about-info .infocard h6{
+  font-size: 18px;
+  color: #757575;
+  font-weight: 400;
+}
+
+#about .about-info .infocard h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}

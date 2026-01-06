@@ -4,9 +4,13 @@
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
+
 #hero-container{
-  background-color:#FFF8F3;
+  background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+  background-repeat: no-repeat;
+  background-position: 38px 25px, bottom right;
 }
+
 #hero-nav{
   width:71%;
   max-width: 1140px;
@@ -47,4 +51,87 @@
   color: white;
   font-size: 20px;
   cursor: pointer;
+  display: flex;
+}
+
+
+
+/* banner  */
+
+
+#banner{
+  margin: 46px 38px 0px 222px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content{
+  max-width: 585px;
+  
+}
+
+.banner-content h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.banner-content h1{
+  font-size: 85px;
+  font-weight: bold;
+  color:#181818;
+  margin-bottom: 20px;
+}
+
+.banner-content p{
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.banner-image img{
+  vertical-align: middle;
+  max-width: 584px;
+}
+
+
+
+
+
+
+
+
+
+/* button  */
+.button-container{
+  display: flex;
+  gap: 20px;
+  max-height: 64px;
+}
+
+.btn-white{
+  background-color: white;
+  border: 1px solid #FD6E0A ;
+  gap: 10px;
+}
+
+.btn-white img{
+  margin-top: 5px;
+}
+
+.btn-white p{
+  color:#FD6E0A;
+}
+
+
+.btn-orange img{
+  margin-top:5px ;
+  margin-right: 10px;
+}
+
+.btn-orange p{
+  color: white;
 }

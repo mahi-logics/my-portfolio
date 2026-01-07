@@ -6,6 +6,19 @@
   scrollbar-width: none;
 }
 
+.text{
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.container{
+  width:71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 #hero-container{
   background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
   background-repeat: no-repeat;
